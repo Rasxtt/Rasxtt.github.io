@@ -119,13 +119,13 @@ input:checked + label {
     align-items: center;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 767px) {
     .labels {
         flex-direction: column;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 767px) {
     .btns {
         display: flex;
         flex-direction: column;
