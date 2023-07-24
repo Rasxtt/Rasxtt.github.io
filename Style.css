@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #AA96DA;
+}
+
+#start {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#title {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFD2;
+    background-color: transparent;
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    border: 10px solid #FFFFD2;
+}
+
+#subtitle {
+    justify-content: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#continue {
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#continue:hover {
+    background-color: #A8D8EA;
+    width: 300px;
+    height: 70px;
+    font-size: x-large;
+}
+
+#photos {
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    border: 10px solid #FFFFD2;
+    border-radius: 100px;
+}
+
+#photo1, #photo2, #photo3, #photo4 {
+    align-self: center;
+    height: 300px;
+    width: auto;
+    
+}
+
+
+#photo1:hover, #photo2:hover, #photo3:hover, #photo4:hover {
+    height: 500px;
+    width: auto;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#lobby {
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#choose {
+    justify-self: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+}
+
+#flowerb, #videob, #songb, #textb, #dedicatoriab, #playlistb {
+    color: #FFFFD2;
+    font-size: large;
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    border: 10px solid #FFFFD2;
+    border-radius: 100px;
+    margin: 10px
+}
+
+
+#flowerb:hover, #videob:hover, #songb:hover, #textb:hover, #dedicatoriab:hover, #playlistb:hover {
+    background-color: #A8D8EA;
+    height: 200px;
+    width: 200px;
+    font-size: x-large;
+}
+
+#flower {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+}
+
+#flowerh2 {
+    justify-self: flex-start;
+    margin: auto;
+    justify-content: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#flowerimg {
+    justify-self: center;
+    margin: auto;
+    height: 800px;
+    width: auto;
+    border-radius: 100px;
+    border: 10px solid black;
+}
+
+#flowerp {
+    margin: auto;
+    text-align: center;
+    color: #FFFFD2;
+    font-size: 20px;
+    width: 1500px;
+    margin: 20px;
+}
+
+#flowerd {
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#flowerd:hover {
+    background-color: #A8D8EA;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+}
+
+#videoh2 {
+    justify-self: flex-start;
+    margin: auto;
+    justify-content: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#videovideo {
+    justify-self: center;
+    margin: auto;
+    height: 800px;
+    width: auto;
+    border-radius: 100px;
+    border: 10px solid black;
+}
+
+#videop {
+    margin: auto;
+    text-align: center;
+    color: #FFFFD2;
+    font-size: 20px;
+    width: 1500px;
+    margin: 20px;
+}
+
+#videod {
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#videod:hover {
+    background-color: #A8D8EA;
+}
+
+#song {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+}
+
+#songh2 {
+    justify-self: flex-start;
+    margin: auto;
+    justify-content: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#songaudio {
+    justify-self: center;
+    margin: auto;
+    width: 1000px;
+    border-radius: 100px;
+    border: 10px solid black;
+}
+
+#songp {
+    margin: auto;
+    text-align: center;
+    color: #FFFFD2;
+    font-size: 20px;
+    width: 1500px;
+    margin: 20px;
+}
+
+#songd {
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#songd:hover {
+    background-color: #A8D8EA;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+}
+
+#texth2 {
+    justify-self: flex-start;
+    margin: auto;
+    justify-content: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#textpdf {
+    justify-self: center;
+    margin: auto;
+    height: 800px;
+    width: 1700px;
+    border-radius: 100px;
+    border: 10px solid black;
+}
+
+#textd {
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#textd:hover {
+    background-color: #A8D8EA;
+}
+
+#dedicatoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+}
+
+#dedicatoriah2 {
+    justify-self: flex-start;
+    margin: auto;
+    justify-content: flex-start;
+    color: #FFFFD2;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#dedicatoriaaudio {
+    justify-self: center;
+    margin: auto;
+    width: 1000px;
+    border-radius: 100px;
+    border: 10px solid black;
+}
+
+#dedicatoriap {
+    margin: auto;
+    text-align: center;
+    color: #FFFFD2;
+    font-size: 20px;
+    width: 1500px;
+    margin: 20px;
+}
+
+#dedicatoriad {
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#dedicatoriad:hover {
+    background-color: #A8D8EA;
+}
+
+#playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+}
+
+#playlistF {
+    justify-self: center;
+    margin: auto;
+    height: 1000px;
+    width: 1700px;
+    border-radius: 100px;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+#__next {
+    background: red;
+}
+
+#return {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 55px;
+    background: transparent;
+    margin: 10px;
+    border: 5px solid #FFFFD2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFD2;
+    font-size: larger;
+    margin: 10px;
+}
+
+#return:hover {
+    background-color: #A8D8EA;
+}
